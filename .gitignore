@@ -1,0 +1,57 @@
+###ios
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+ios/www/css/application.css
+ios/www/js/application.js
+ios/www/index.html
+
+# Generated files
+*.o
+*.pyc
+
+#Python modules
+MANIFEST
+dist/
+build/
+
+# Backup files
+*~.nib
+
+###android
+android/local.properties
+android/bin
+android/gen
+android/assets/www/css/application.css
+android/assets/www/js/application.js
+android/assets/www/index.html
+
+###blackberry
+blackberry/www/css/application.css
+blackberry/www/js/application.js
+blackberry/www/index.html
+blackberry/build
+
+###assets
+assets/javascripts/vendor/platform_specific
+assets/stylesheets/vendor/platform_specific
+
+###redis
+dump.rdb
+
+###jasmine
+.jhw-cache
+
+###redis
+dump.rdb
+
+###Mac OS X
+*.DS_Store
+
+###rubymine
+.idea/

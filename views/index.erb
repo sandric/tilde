@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en'>
+<head>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+  <meta content='text/html' http-equiv='Content-type' />
+  <meta charset='UTF-8' />
+
+  <% if request.params['compile'] %>
+  <link rel="stylesheet" href="css/application.css">
+  <script type='text/javascript' src='js/application.js'></script>
+  <% else %>
+  <link rel="stylesheet" href="<%= stylesheet_path 'application' %>">
+  <%= javascript_tag 'application', :expand => true %>
+  <% end %>
+</head>
+<title>Donegal</title>
+<body>
+  <div class="center">
+    <% if request.params['compile'] %>
+    <img class="main_logo" src="img/logo.png">
+    <% else %>
+    <img class="main_logo" src="<%= image_path 'logo.png' %>">
+    <% end %>
+  </div>
+</body>
+</html>

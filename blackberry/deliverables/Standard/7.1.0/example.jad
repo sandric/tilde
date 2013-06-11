@@ -1,0 +1,16 @@
+MIDlet-Name: example
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: BlackBerry Developer
+MIDlet-Jar-URL: example.jar
+MIDlet-Jar-Size: 0
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: ,res/img/icon.png,
+RIM-MIDlet-Flags-1: 0
+Manifest-Version: 1.0
+RIM-COD-URL: example.cod
+RIM-COD-Size: 1644
+RIM-COD-Creation-Time: 1364664293
+RIM-COD-Module-Name: example
+RIM-COD-Module-Dependencies: ant-contrib-1.0b3,net_rim_cldc
+RIM-COD-SHA1: f1 46 65 1b 91 11 fa 3d 44 2b 05 97 aa dd 5f bd 9e f7 86 6b
